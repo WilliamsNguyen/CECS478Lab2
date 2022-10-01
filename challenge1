@@ -1,0 +1,4 @@
+#! /bin/bash
+sed -e 's/\<the\>/this/'
+# -e is for editing
+# s is for substituting, in this case "the" is being substituted by "this"

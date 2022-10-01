@@ -1,0 +1,4 @@
+#! /bin/bash
+sed 's/[Tt][Hh][Yy]/{&}/g'
+# s for substitute, in this case "thy" case insensitive is being wrapped with brackets which is the {&}
+# g stands for global which replaces all "thy" case insensitive in the line

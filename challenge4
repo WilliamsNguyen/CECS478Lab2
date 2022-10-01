@@ -1,0 +1,4 @@
+#! /bin/bash
+awk '(length($4)==0){print "Not all scores are available for",$1}'
+# since there is 4 columns, if a row does not contain 4 columns, it is incomplete so we print out "Not all scores are available for" and then we print out the first column of that row which is the identifier
+# 

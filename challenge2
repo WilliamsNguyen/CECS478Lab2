@@ -1,0 +1,4 @@
+#! /bin/bash
+sed 's/[Tt][Hh][Yy]/your/g'
+# s for substituting, in this case we are replacing "thy" case insensitive to "your"
+# g stands for global which replaces all matching "thy" in the line
